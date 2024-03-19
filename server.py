@@ -1,7 +1,7 @@
 # Import required modules
 #no hi there anymore 
 import socket
-import threading
+
 
 HOST = '127.0.0.1'
 PORT = 1340 # You can use any port between 0 to 65535
