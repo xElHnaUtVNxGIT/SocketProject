@@ -1,4 +1,5 @@
 # Import required modules
+#hi there
 import socket
 import threading
 
@@ -10,7 +11,6 @@ active_clients = [] # List of all currently connected users
 # Function to listen for upcoming messages from a client
 def listen_for_messages(client, username):
     while 1:
-
         message = client.recv(2048).decode('utf-8')
         if message != '':
             
