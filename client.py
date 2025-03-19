@@ -47,8 +47,7 @@ def connect():
         messagebox.showerror("Unable to connect to server", f"Unable to connect to server {HOST} {PORT}")
 
     username = username_textbox.get()
-    if username != '':
-        client.sendall(username.encode())
+    if username != '':        client.sendall(username.encode())
     else:
         messagebox.showerror("Invalid username", "Username cannot be empty")
 
