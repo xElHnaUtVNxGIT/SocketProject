@@ -21,6 +21,7 @@ def register():
 
             # Ẩn cửa sổ đăng ký sau khi đăng ký thành công
             register_window.destroy()
+
 db.create_database()
 # Tạo cửa sổ
 register_window = tk.Tk()

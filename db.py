@@ -17,6 +17,7 @@ def create_database():
     # Tạo bảng trong cơ sở dữ liệu để lưu trữ thông tin đăng ký
     cursor.execute(sqlTable)
     
+    
     # Thực hiện truy vấn SELECT để lấy dữ liệu từ bảng users
     #cursor.execute(sqlSelect)
     #print(cursor.fetchall())

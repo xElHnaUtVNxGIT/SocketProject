@@ -22,7 +22,6 @@ def authenticate(username, password):
         messagebox.showerror("Error:", e)
         return False  # Đăng nhập thất bại
 
-
 # Tạo cửa sổ
 root = tk.Tk()
 root.geometry("600x600")
